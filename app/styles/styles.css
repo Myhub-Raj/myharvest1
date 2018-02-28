@@ -35,8 +35,8 @@ body {
 
   h1{
   font-family: 'Molle', cursive;
-  text-align: left;
-  color: #WHITE;
+  text-align:right;
+  color: #blue;
   font-size:2em;
   margin-top:1em;
   margin-left: 850px;
@@ -46,11 +46,12 @@ body {
 
 h3{
 font-family: 'Molle', cursive;
-text-align: left;
-color: white;
-font-size:1.5em;
+color: blue;
+text-align: center;
+font-size:5em;
+margin-top:15em;
 transform: skew(3.8deg, 173.5deg);
-padding right:300px;
+padding right:100px;
 }
 
 
@@ -63,18 +64,6 @@ padding right:300px;
       border-radius: 25px;
       background: red;
     }
-
-p {
-  font-size: 1em;
-  text-align: left;
-}
-
-span {
-  clear: both;
-  font-size:1.2em;
-  font-family: 'Molle', cursive;
-
-}
 
 a {
   color: #fe001a;
@@ -103,12 +92,7 @@ a {
     font-family: 'Molle', cursive;
 }
 
-#button {
-    width: 6em;
-    border: 2px solid green;
-    background: #ffe;
-    border-radius: 5px;
-}
+
 a {
     display: block;
     width: 100%;
