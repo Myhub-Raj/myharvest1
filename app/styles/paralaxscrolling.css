@@ -30,10 +30,10 @@ h1 {
 }
 
 h6 {
-   font-size: 50%;
+   font-size: 90%;
    font-family: 'Molle', cursive;
    margin-top: 2.5em;
-   transform: skew(2deg, -25deg);
+   transform: skew(4deg, -15deg);
    padding right:400px;
    text allign right:120px;
 }
