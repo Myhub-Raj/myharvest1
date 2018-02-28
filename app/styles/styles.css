@@ -3,8 +3,7 @@ html {
   padding: 0;
   border: 0; }
 
-
-body {
+  body {
   font-family: 'Coming Soon', cursive;
   transition: background 1s ease;
    background: #fe001a;
@@ -36,8 +35,8 @@ body {
   h1{
   font-family: 'Molle', cursive;
   text-align: left;
-  color: #blue;
-  font-size:100em;
+  color: #WHITE;
+  font-size:2em;
   margin-top:1em;
   margin-left: 850px;
   transform: skew(7.8deg, 163.3deg);
@@ -50,7 +49,7 @@ text-align: left;
 color: white;
 font-size:1.5em;
 transform: skew(3.8deg, 173.5deg);
-padding right:100px;
+padding right:300px;
 }
 
 
@@ -121,6 +120,8 @@ a:hover {
     color: red;
     background: #eff;
 }
+
+
 
 body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
   margin: 0;
