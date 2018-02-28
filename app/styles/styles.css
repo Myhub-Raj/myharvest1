@@ -44,13 +44,13 @@ body {
   padding right:200px;
 }
 
-h3{
+h2{
 font-family: 'Molle', cursive;
-color: blue;
+color:#fe001a;
 text-align: center;
-font-size:5em;
+font-size:15em;
 margin-top:15em;
-transform: skew(3.8deg, 173.5deg);
+transform: skew(1.8deg, 173.5deg);
 padding right:100px;
 }
 
