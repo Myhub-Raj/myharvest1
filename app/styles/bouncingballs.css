@@ -8,14 +8,15 @@
 h1 {
     background:#fe001a;
     display: flex;
-    justify-content: center;
+    justify-content:center
+    padding: space-around;
 }
 
 
 body {
-    background: #WHITE;
+  background: #WHITE;
    display: flex;
-   justify-content: center;
+   justify-content:space-around;
 }
 
 
