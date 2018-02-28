@@ -1,0 +1,22 @@
+/*
+  You can use import statements to include partials:
+ */
+@import "imports/reset.css";
+
+* { box-sizing: border-box }
+
+
+html,body{font-family:'Molle', cursive;
+font-size:15px;
+line-height:1.5;
+color: white;
+margin-top: 14em;
+padding-left: 6em;
+transform: skew(5deg, 170deg)}html{overflow-x:hidden}
+
+h1{font-size:50px}
+
+.animate-left{position:relative;animation:animateleft 0.9s}
+@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.animate-right{position:relative;animation:animateright 0.9s}
+@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
