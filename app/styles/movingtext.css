@@ -1,22 +1,52 @@
 /*
   You can use import statements to include partials:
- */
-@import "imports/reset.css";
+ */@import "styles/movingtext.css";
 
 * { box-sizing: border-box }
+.scroll-left {
+height: 50px;
+overflow: hidden;
+position: relative;
+}
 
+.scroll-left h1 {
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 50px;
+text-align: center;
+color: #fe001a;
 
-html,body{font-family:'Molle', cursive;
-font-size:15px;
-line-height:1.5;
-color: white;
-margin-top: 14em;
-padding-left: 6em;
-transform: skew(5deg, 170deg)}html{overflow-x:hidden}
+/* Starting position */
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%);
+transform:translateX(100%);
 
-h1{font-size:50px}
+/* Apply animation to this element */
+-moz-animation: scroll-left 10s linear infinite;
+-webkit-animation: scroll-left 10s linear infinite;
+animation: scroll-left 10s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+0% { -moz-transform: translateX(100%); }
+100% { -moz-transform: translateX(-100%); }
+}
 
-.animate-left{position:relative;animation:animateleft 0.9s}
-@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
-.animate-right{position:relative;animation:animateright 0.9s}
-@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@-webkit-keyframes scroll-left {
+0% { -webkit-transform: translateX(100%); }
+100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+0% {
+-moz-transform: translateX(100%); /* Browser bug fix */
+-webkit-transform: translateX(100%); /* Browser bug fix */
+transform: translateX(100%);
+}
+100% {
+-moz-transform: translateX(-100%); /* Browser bug fix */
+-webkit-transform: translateX(-100%); /* Browser bug fix */
+transform: translateX(-100%);
+}
+}
